@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FaladdinDatePicker_Example' do
+  pod 'FaladdinDatePicker', :path => '../'
+
+  target 'FaladdinDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
