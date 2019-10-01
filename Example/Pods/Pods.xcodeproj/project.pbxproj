@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FABDD24EC4B5C464186188BCB8A64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		40329A3CE098B8438ED05D6CB7BB2511 /* Pods-FaladdinDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756FE9173D093D10EA740D030717817 /* Pods-FaladdinDatePicker_Tests-dummy.m */; };
+		5EEA55C64ABB8970EA7EF51C15131E9B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0314A655CA6EE324B7390A0872642B /* ReplaceMe.swift */; };
+		6E127B39640A0026E647C96462EB2BB4 /* FaladdinDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF43915951303EA625F67790485A370 /* FaladdinDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9537BE89411955B78E298C6BA60BFD28 /* FaladdinDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD68CEFC72D8247A308F1C33AB57AD6 /* FaladdinDatePicker-dummy.m */; };
+		9A81359868A27BFCA15EAE15EFDAA936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C3017B813BB82B72093D69267A545B64 /* Pods-FaladdinDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48962417F53D890AAB36C50518448C77 /* Pods-FaladdinDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D384C4FE6F23EC78A42BE664224F09AB /* Pods-FaladdinDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBD6DF8727A4B1828509C2A9A09AD9 /* Pods-FaladdinDatePicker_Example-dummy.m */; };
+		DA60724D0553E316409EBF88BDF2A200 /* Pods-FaladdinDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF070DBF243E14CB29FCFE7DC1EA8E0A /* Pods-FaladdinDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF91ADCCFAF6BED103FACBF7A59D6D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A349B7C3A940E1B1A7D74F319F7369B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EF7CC9C46D0D405DC645A83896CD5;
+			remoteInfo = "Pods-FaladdinDatePicker_Example";
+		};
+		F21299CFB2AD82D368280BD01BBD72CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C2A43647C00F45EA1CA1E3E43C9391;
+			remoteInfo = FaladdinDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C2526A09EAEF8C47DB1CEA3B501CD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04FF2A42E62AF3072F1D30F17E5B26F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FD68CEFC72D8247A308F1C33AB57AD6 /* FaladdinDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaladdinDatePicker-dummy.m"; sourceTree = "<group>"; };
+		3585325744A3D4364DA6B0F684BF438B /* Pods-FaladdinDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaladdinDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3811AE725708B1635B520988F4EDFAB3 /* Pods-FaladdinDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaladdinDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D9A78A6E8FDB237AEF28C79D9184F25 /* FaladdinDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FaladdinDatePicker.modulemap; sourceTree = "<group>"; };
+		3DEBD6DF8727A4B1828509C2A9A09AD9 /* Pods-FaladdinDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaladdinDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		48962417F53D890AAB36C50518448C77 /* Pods-FaladdinDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaladdinDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		497AF2B898BC94254CC1FB370F8E3324 /* Pods_FaladdinDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaladdinDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F84B0421D2CF1EF72F35ECC6791FD17 /* Pods_FaladdinDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaladdinDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504402C63F851FDC17F67746BF7CF942 /* Pods-FaladdinDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaladdinDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5051E60EB4278BAF2FF0EF639E9B645B /* Pods-FaladdinDatePicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaladdinDatePicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		5E0C8E3AF54C7DFD5AE7ECF078D560FE /* FaladdinDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaladdinDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		6D51F2A34343896E6BE83EECD5270180 /* FaladdinDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FaladdinDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7756FE9173D093D10EA740D030717817 /* Pods-FaladdinDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaladdinDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		79327D9556D227E4D6F9AC185A6556C4 /* Pods-FaladdinDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaladdinDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82A8C6187DB5956F4FF6415A63AABDD1 /* Pods-FaladdinDatePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaladdinDatePicker_Example-Info.plist"; sourceTree = "<group>"; };
+		859CB0C0BDBB32D164F88BE78F85BFAD /* FaladdinDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FaladdinDatePicker-Info.plist"; sourceTree = "<group>"; };
+		89B2D8AC6B33EF97B3E6466A019DBDE6 /* Pods-FaladdinDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaladdinDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		977E4986F087B6ED2C64F8E8AFFAA986 /* Pods-FaladdinDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaladdinDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		99F9CCB68A096B0B224D827D730737D0 /* Pods-FaladdinDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaladdinDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F95BB919ECCF679EF3BFC48633B92B /* Pods-FaladdinDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaladdinDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF070DBF243E14CB29FCFE7DC1EA8E0A /* Pods-FaladdinDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaladdinDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		B93790865ED5B1A8668A83D67FC5AD73 /* FaladdinDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaladdinDatePicker.xcconfig; sourceTree = "<group>"; };
+		BA8EA31496F66D0341BC5C6A7ABD92E8 /* FaladdinDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FaladdinDatePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C026E1BBBDBD9EBFD2D51EC277DC1A65 /* Pods-FaladdinDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaladdinDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CAF43915951303EA625F67790485A370 /* FaladdinDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaladdinDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF486AC892F6CE57ED86769EF946549C /* Pods-FaladdinDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FaladdinDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		D8366C6D954C8000E97058CFEFEDBA92 /* Pods-FaladdinDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FaladdinDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		DB0314A655CA6EE324B7390A0872642B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FaladdinDatePicker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35022AF2C4BC8EEED6B68932D3489D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF91ADCCFAF6BED103FACBF7A59D6D0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6B6552663698C288AD7F1710F3430C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A81359868A27BFCA15EAE15EFDAA936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95112791E8745FFA3F407BC021C7FAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FABDD24EC4B5C464186188BCB8A64B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6548661DFE6EBE0FF5FF107317525D /* Pods-FaladdinDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8366C6D954C8000E97058CFEFEDBA92 /* Pods-FaladdinDatePicker_Tests.modulemap */,
+				79327D9556D227E4D6F9AC185A6556C4 /* Pods-FaladdinDatePicker_Tests-acknowledgements.markdown */,
+				99F9CCB68A096B0B224D827D730737D0 /* Pods-FaladdinDatePicker_Tests-acknowledgements.plist */,
+				7756FE9173D093D10EA740D030717817 /* Pods-FaladdinDatePicker_Tests-dummy.m */,
+				5051E60EB4278BAF2FF0EF639E9B645B /* Pods-FaladdinDatePicker_Tests-Info.plist */,
+				48962417F53D890AAB36C50518448C77 /* Pods-FaladdinDatePicker_Tests-umbrella.h */,
+				89B2D8AC6B33EF97B3E6466A019DBDE6 /* Pods-FaladdinDatePicker_Tests.debug.xcconfig */,
+				504402C63F851FDC17F67746BF7CF942 /* Pods-FaladdinDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-FaladdinDatePicker_Tests";
+			path = "Target Support Files/Pods-FaladdinDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		59CBBC1862819681F9A38C47905DB860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D51F2A34343896E6BE83EECD5270180 /* FaladdinDatePicker.framework */,
+				4F84B0421D2CF1EF72F35ECC6791FD17 /* Pods_FaladdinDatePicker_Example.framework */,
+				497AF2B898BC94254CC1FB370F8E3324 /* Pods_FaladdinDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB286F06AF12E62848BE152D28D159C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7321AA31A840A8A789FE74EB202B79D /* Pods-FaladdinDatePicker_Example */,
+				1E6548661DFE6EBE0FF5FF107317525D /* Pods-FaladdinDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		734CE933C99E02445D4FD5C293B21B87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA8EA31496F66D0341BC5C6A7ABD92E8 /* FaladdinDatePicker.podspec */,
+				04C2526A09EAEF8C47DB1CEA3B501CD7 /* LICENSE */,
+				04FF2A42E62AF3072F1D30F17E5B26F9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9ACD23D9231E070F70C627F13649A6C3 /* FaladdinDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				DB0314A655CA6EE324B7390A0872642B /* ReplaceMe.swift */,
+				734CE933C99E02445D4FD5C293B21B87 /* Pod */,
+				CE8A3CD8AE7748E46A59FD8A48814657 /* Support Files */,
+			);
+			name = FaladdinDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7321AA31A840A8A789FE74EB202B79D /* Pods-FaladdinDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF486AC892F6CE57ED86769EF946549C /* Pods-FaladdinDatePicker_Example.modulemap */,
+				3585325744A3D4364DA6B0F684BF438B /* Pods-FaladdinDatePicker_Example-acknowledgements.markdown */,
+				A1F95BB919ECCF679EF3BFC48633B92B /* Pods-FaladdinDatePicker_Example-acknowledgements.plist */,
+				3DEBD6DF8727A4B1828509C2A9A09AD9 /* Pods-FaladdinDatePicker_Example-dummy.m */,
+				C026E1BBBDBD9EBFD2D51EC277DC1A65 /* Pods-FaladdinDatePicker_Example-frameworks.sh */,
+				82A8C6187DB5956F4FF6415A63AABDD1 /* Pods-FaladdinDatePicker_Example-Info.plist */,
+				AF070DBF243E14CB29FCFE7DC1EA8E0A /* Pods-FaladdinDatePicker_Example-umbrella.h */,
+				977E4986F087B6ED2C64F8E8AFFAA986 /* Pods-FaladdinDatePicker_Example.debug.xcconfig */,
+				3811AE725708B1635B520988F4EDFAB3 /* Pods-FaladdinDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-FaladdinDatePicker_Example";
+			path = "Target Support Files/Pods-FaladdinDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		C5D325CD4178BEEB0C4169E8AC8C5E77 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ACD23D9231E070F70C627F13649A6C3 /* FaladdinDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE8A3CD8AE7748E46A59FD8A48814657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D9A78A6E8FDB237AEF28C79D9184F25 /* FaladdinDatePicker.modulemap */,
+				B93790865ED5B1A8668A83D67FC5AD73 /* FaladdinDatePicker.xcconfig */,
+				2FD68CEFC72D8247A308F1C33AB57AD6 /* FaladdinDatePicker-dummy.m */,
+				859CB0C0BDBB32D164F88BE78F85BFAD /* FaladdinDatePicker-Info.plist */,
+				5E0C8E3AF54C7DFD5AE7ECF078D560FE /* FaladdinDatePicker-prefix.pch */,
+				CAF43915951303EA625F67790485A370 /* FaladdinDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FaladdinDatePicker";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C5D325CD4178BEEB0C4169E8AC8C5E77 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				59CBBC1862819681F9A38C47905DB860 /* Products */,
+				5DB286F06AF12E62848BE152D28D159C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18F73EF7439092FB206CDFFE3FDCDCBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA60724D0553E316409EBF88BDF2A200 /* Pods-FaladdinDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A838831DF4B0C587CFDD42A9CAB03F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E127B39640A0026E647C96462EB2BB4 /* FaladdinDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209824F23530825781EC5E2F3025606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3017B813BB82B72093D69267A545B64 /* Pods-FaladdinDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		805EF7CC9C46D0D405DC645A83896CD5 /* Pods-FaladdinDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E6910A3E0CA406597E370A8D4A78E6 /* Build configuration list for PBXNativeTarget "Pods-FaladdinDatePicker_Example" */;
+			buildPhases = (
+				18F73EF7439092FB206CDFFE3FDCDCBC /* Headers */,
+				B49D0E9D32D32972CAB5C163336390BC /* Sources */,
+				7D6B6552663698C288AD7F1710F3430C /* Frameworks */,
+				2691461BCB681EC839E44E80E5564CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F9AC19F56083CE2133F654B8B7521C /* PBXTargetDependency */,
+			);
+			name = "Pods-FaladdinDatePicker_Example";
+			productName = "Pods-FaladdinDatePicker_Example";
+			productReference = 4F84B0421D2CF1EF72F35ECC6791FD17 /* Pods_FaladdinDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B831321011F075E8609C7E71C9D15B5C /* Pods-FaladdinDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FE81B728C06778DBD1D6CAE5FAF423 /* Build configuration list for PBXNativeTarget "Pods-FaladdinDatePicker_Tests" */;
+			buildPhases = (
+				9209824F23530825781EC5E2F3025606 /* Headers */,
+				33FA7957EDA7F3DDD12B0AA2E8BD16DC /* Sources */,
+				95112791E8745FFA3F407BC021C7FAC9 /* Frameworks */,
+				B10C62FB08A75CDF7F5B2ED0492EA554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A93CB1DEBDDCCA842901E3B96110E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-FaladdinDatePicker_Tests";
+			productName = "Pods-FaladdinDatePicker_Tests";
+			productReference = 497AF2B898BC94254CC1FB370F8E3324 /* Pods_FaladdinDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9C2A43647C00F45EA1CA1E3E43C9391 /* FaladdinDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B9221C7F0F5F5ABF7E1858FBDBBBA /* Build configuration list for PBXNativeTarget "FaladdinDatePicker" */;
+			buildPhases = (
+				48A838831DF4B0C587CFDD42A9CAB03F /* Headers */,
+				70610B98F7AED228A76083CE4C66CF04 /* Sources */,
+				35022AF2C4BC8EEED6B68932D3489D18 /* Frameworks */,
+				98F79EEC21C85B8F6BEE30CC0FA0711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaladdinDatePicker;
+			productName = FaladdinDatePicker;
+			productReference = 6D51F2A34343896E6BE83EECD5270180 /* FaladdinDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 59CBBC1862819681F9A38C47905DB860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C2A43647C00F45EA1CA1E3E43C9391 /* FaladdinDatePicker */,
+				805EF7CC9C46D0D405DC645A83896CD5 /* Pods-FaladdinDatePicker_Example */,
+				B831321011F075E8609C7E71C9D15B5C /* Pods-FaladdinDatePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2691461BCB681EC839E44E80E5564CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F79EEC21C85B8F6BEE30CC0FA0711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C62FB08A75CDF7F5B2ED0492EA554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33FA7957EDA7F3DDD12B0AA2E8BD16DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40329A3CE098B8438ED05D6CB7BB2511 /* Pods-FaladdinDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70610B98F7AED228A76083CE4C66CF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9537BE89411955B78E298C6BA60BFD28 /* FaladdinDatePicker-dummy.m in Sources */,
+				5EEA55C64ABB8970EA7EF51C15131E9B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D0E9D32D32972CAB5C163336390BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D384C4FE6F23EC78A42BE664224F09AB /* Pods-FaladdinDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F9AC19F56083CE2133F654B8B7521C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaladdinDatePicker;
+			target = C9C2A43647C00F45EA1CA1E3E43C9391 /* FaladdinDatePicker */;
+			targetProxy = F21299CFB2AD82D368280BD01BBD72CA /* PBXContainerItemProxy */;
+		};
+		46A93CB1DEBDDCCA842901E3B96110E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FaladdinDatePicker_Example";
+			target = 805EF7CC9C46D0D405DC645A83896CD5 /* Pods-FaladdinDatePicker_Example */;
+			targetProxy = A349B7C3A940E1B1A7D74F319F7369B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		417CE779702CF3F00B99BA14F82C48E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3811AE725708B1635B520988F4EDFAB3 /* Pods-FaladdinDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FaladdinDatePicker_Example/Pods-FaladdinDatePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaladdinDatePicker_Example/Pods-FaladdinDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		598E8869EEA3C9AFFABC07C12A89DBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504402C63F851FDC17F67746BF7CF942 /* Pods-FaladdinDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FaladdinDatePicker_Tests/Pods-FaladdinDatePicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaladdinDatePicker_Tests/Pods-FaladdinDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862E78966242AD92B40CD16801EE182F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93790865ED5B1A8668A83D67FC5AD73 /* FaladdinDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = FaladdinDatePicker;
+				PRODUCT_NAME = FaladdinDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AB24253EAE71851328F17F5E231E15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977E4986F087B6ED2C64F8E8AFFAA986 /* Pods-FaladdinDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FaladdinDatePicker_Example/Pods-FaladdinDatePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaladdinDatePicker_Example/Pods-FaladdinDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D103FA2A073A5A57A8BD07960CEC140A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B2D8AC6B33EF97B3E6466A019DBDE6 /* Pods-FaladdinDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FaladdinDatePicker_Tests/Pods-FaladdinDatePicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaladdinDatePicker_Tests/Pods-FaladdinDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD7F6C9C26DF645FE1948FB08E97240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93790865ED5B1A8668A83D67FC5AD73 /* FaladdinDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaladdinDatePicker/FaladdinDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = FaladdinDatePicker;
+				PRODUCT_NAME = FaladdinDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FE81B728C06778DBD1D6CAE5FAF423 /* Build configuration list for PBXNativeTarget "Pods-FaladdinDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103FA2A073A5A57A8BD07960CEC140A /* Debug */,
+				598E8869EEA3C9AFFABC07C12A89DBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E6910A3E0CA406597E370A8D4A78E6 /* Build configuration list for PBXNativeTarget "Pods-FaladdinDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB24253EAE71851328F17F5E231E15F /* Debug */,
+				417CE779702CF3F00B99BA14F82C48E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B9221C7F0F5F5ABF7E1858FBDBBBA /* Build configuration list for PBXNativeTarget "FaladdinDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD7F6C9C26DF645FE1948FB08E97240 /* Debug */,
+				862E78966242AD92B40CD16801EE182F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

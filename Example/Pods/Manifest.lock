@@ -1,0 +1,16 @@
+PODS:
+  - FaladdinDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - FaladdinDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  FaladdinDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FaladdinDatePicker: 371d7e6f757364e438482f28687f3cdfb03e0e29
+
+PODFILE CHECKSUM: 36f47061da5da6abc4e76d706e37d41f97c0b590
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,22 @@
+{
+  "name": "FaladdinDatePicker",
+  "version": "0.1.0",
+  "summary": "A short description of FaladdinDatePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Umur Burhan Yavuz/FaladdinDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Umur Burhan Yavuz": "umur@binnaz.com"
+  },
+  "source": {
+    "git": "https://github.com/Umur Burhan Yavuz/FaladdinDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FaladdinDatePicker/Classes/**/*"
+}
